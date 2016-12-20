@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     /*for youtube*/
     private static final int RECOVERY_REQUEST = 1;
-    public static final String YOUTUBE_API_KEY= "J2peEejD8aCDpVUAIzaSyADd_jmgrYvmOUB0p3z";
+    public static final String YOUTUBE_API_KEY= "J2peEejD8aCDpVUAIzaSyADd_jmgrYvmOUB0p3z";//AIzaSyADd_jmgrYvmOUB0p3zJ2peEejD8aCDpVU
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean wasRestored) {
                 if (!wasRestored) {
-                    youTubePlayer.cueVideo("vYRo5o8nNxk"); // Plays https://www.youtube.com/watch?v=fhWaJi1Hsfo
+                    youTubePlayer.cueVideo("eZZie3zs1mE"); // Plays https://www.youtube.com/watch?v=eZZie3zs1mE
                 }
             }
 
@@ -58,6 +58,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     /*--------------------------------------------------------------------------------------------*/
-
-
 }
